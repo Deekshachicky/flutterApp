@@ -3,7 +3,9 @@ import 'package:assignment1/profilepage.dart';
 import 'package:assignment1/stack.dart';
 import 'package:flutter/material.dart';
 
+import 'checkbox.dart';
 import 'drawer.dart';
+import 'icon.dart';
 
 
 void main() {
@@ -37,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Profile(),
+      home: const RadioCheck(),
     );
   }
 }
